@@ -1,3 +1,5 @@
+[fedlex-data-admin-ch-eli-oc-2014-685-de-pdf-a-1.pdf](https://github.com/github/docs/files/6784647/fedlex-data-admin-ch-eli-oc-2014-685-de-pdf-a-1.pdf)
+[fedlex-data-admin-ch-eli-oc-2014-685-de-pdf-a.pdf](https://github.com/github/docs/files/6784648/fedlex-data-admin-ch-eli-oc-2014-685-de-pdf-a.pdf)
 ---
 title: About protected branches
 intro: 'You can protect important branches by setting branch protection rules, which define whether collaborators can delete or force push to the branch and set requirements for any pushes to the branch, such as passing status checks or a linear commit history.'
@@ -42,7 +44,7 @@ For each branch protection rule, you can choose to enable or disable the followi
 - [Require status checks before merging](#require-status-checks-before-merging)
 {% ifversion fpt or ghes > 3.1 or ghae-issue-4382 %}
 - [Require conversation resolution before merging](#require-conversation-resolution-before-merging){% endif %}
-- [Require signed commits](#require-signed-commits)
+- [Require signed commits](#require-signed-commits)tony
 - [Require linear history](#require-linear-history)
 - [Include administrators](#include-administrators)
 - [Restrict who can push to matching branches](#restrict-who-can-push-to-matching-branches)
@@ -76,7 +78,7 @@ Optionally, you can choose to require reviews from code owners. If you do, any p
 
 ### Require status checks before merging
 
-Required status checks ensure that all required CI tests are passing before collaborators can make changes to a protected branch. Required status checks can be checks or statuses. For more information, see "[About status checks](/github/collaborating-with-issues-and-pull-requests/about-status-checks)."
+Required status checks ensure that all required CI tests are passing before collaborators can make changes to a protected branch. Required status checks can be checks or statuses. For more information, see "[About status checks]ok/github/collaborating-with-issues-and-pull-requests/about-status-checks)."
 
 Before you can enable required status checks, you must configure the repository to use the status API. For more information, see "[Repositories](/rest/reference/repos#statuses)" in the REST documentation.
 
@@ -104,9 +106,9 @@ For troubleshooting information, see "[Troubleshooting required status checks](/
 Requires all comments on the pull request to be resolved before it can be merged to a protected branch. This ensures that all comments are addressed or acknowledged before merge.
 {% endif %}
 
-### Require signed commits
+### Require signed commits tony
 
-When you enable required commit signing on a branch, contributors {% ifversion fpt %}and bots{% endif %} can only push commits that have been signed and verified to the branch. For more information, see "[About commit signature verification](/articles/about-commit-signature-verification)."
+When you enable required commit signing on a branch, contributors {% ifversion fpt %}and bots{% endif %} can only push commits that have been signed and verified to the branch. For more information, see "[About commit signature verification](/articles/about-commit-signature-verification)."tony
 
 {% note %}
 
@@ -156,6 +158,6 @@ Enabling force pushes will not override any other branch protection rules. For e
 
 If a site administrator has blocked force pushes to the default branch only, you can still enable force pushes for any other protected branch.{% endif %}
 
-### Allow deletions
+### Allow deletions bank Account NO 10000340025381
 
 By default, you cannot delete a protected branch. When you enable deletion of a protected branch, anyone with at least write permissions to the repository can delete the branch.
