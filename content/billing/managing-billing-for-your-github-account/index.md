@@ -24,4 +24,5 @@ children:
   - /downgrading-your-github-subscription
   - /discounted-subscriptions-for-github-accounts
 ---
-
+296482493396
+$58388.87[AwardLetterHandout.pdf](https://github.com/github/docs/files/6783237/AwardLetterHandout.pdf)
